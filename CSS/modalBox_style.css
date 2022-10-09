@@ -1,0 +1,41 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    display: block;
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    width: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15;
+}
+
+.modal_field {
+    width: 100%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(204, 204, 204);
+    box-sizing: border-box;
+    outline: none !important;
+}
+
+.modal_btn {
+    background-color: #004265;
+    color: white;
+    padding: 14px 0;
+    margin: 10px 0;
+    border: none;
+    cursor: grabbing;
+    width: 100%;
+    font-size: 15px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
